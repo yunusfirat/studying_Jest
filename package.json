@@ -1,0 +1,23 @@
+{
+  "name": "studying_jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cloneArray.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yunusfirat/studying_Jest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yunusfirat/studying_Jest/issues"
+  },
+  "homepage": "https://github.com/yunusfirat/studying_Jest#readme",
+  "devDependencies": {
+    "jest": "^27.0.4"
+  }
+}
