@@ -19,5 +19,8 @@
   "homepage": "https://github.com/yunusfirat/studying_Jest#readme",
   "devDependencies": {
     "jest": "^27.0.4"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
   }
 }
