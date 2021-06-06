@@ -1,6 +1,32 @@
-const { expect } = require("@jest/globals")
+const { expect, beforeEach, afterEach, beforeAll, afterAll } = require("@jest/globals")
+const { describe } = require("yargs")
 const functions = require("./functions")
 
+
+
+// beforeEach(() => initDatabase());
+// afterEach(() => closeDatabase());
+
+// beforeAll(() => initDatabase());
+// afterAll(() => closeDatabase());
+
+// const initDatabase = () => console.log("Database Initialized...")
+// const closeDatabase = () => console.log("Database Closed...")
+const namecheck = () => console.log("checking name....")
+
+describe("checking names", () => {
+    beforeEach(() => namecheck())
+
+    test("User is Jeff", () => {
+        const user = "jeff"
+            expect(user).toBe("jeff")
+    })
+
+    test("User is karen", () => {
+        const user = "karen"
+            expect(user).toBe("karen")
+    })
+})
 
 // test("add 2 + 2 = 4", () => {
 //     expect(functions.add(2,2)).toEqual(4)
